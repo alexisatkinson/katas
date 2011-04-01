@@ -109,7 +109,13 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DirectoryStructurePrettyPrinter.cs" />
     <Compile Include="MessageGeneratorSpecs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="directoryprettyprintkata\test\folderwithnosubfolders\TextFile1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

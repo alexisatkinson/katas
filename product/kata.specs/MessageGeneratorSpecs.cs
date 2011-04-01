@@ -1,7 +1,8 @@
- using developwithpassion.specifications.rhino;
- using Machine.Specifications;
+using developwithpassion.specifications.rhino;
+using Machine.Specifications;
+using nothinbutdotnetstore;
 
-namespace nothinbutdotnetstore.specs
+namespace kata.specs
 {   
     public class MessageGeneratorSpecs
     {
